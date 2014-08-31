@@ -7,14 +7,10 @@
 *.ncrunchsolution
 obj/
 _ReSharper*/
-DemoApplication/bin/
-YAXLibTests/bin/
-TestResults/
 Bin/*.dll
 Bin/*.xml
 Bin/*.dll.mdb
+*/bin/Debug/*
 /packages/*
 !/packages/repositories.config
-YAXLibTests.VisualState.xml
 TestResult.xml
-Bin/Signed
