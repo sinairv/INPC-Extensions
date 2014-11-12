@@ -37,7 +37,7 @@ namespace NotifyPropertyChangedExtensions
             Expression<Func<TNotifyPropertyChanged, TSourceProperty>> sourceProperty,
             TTarget target,
             Expression<Func<TTarget, TTargetProperty>> targetProperty,
-            BindPropertyOptions options = BindPropertyOptions.None)
+            BindPropertyOptions options = BindPropertyOptions.InitialiseTarget)
 
             where TNotifyPropertyChanged : INotifyPropertyChanged
         {
